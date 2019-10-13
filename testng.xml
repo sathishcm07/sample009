@@ -27,5 +27,17 @@
     </classes>
   </test> <!-- Test -->
   
+    <test thread-count="6" name="Adhoc Test">
+  <groups>
+  <run>
+  <include name = "Adhoc Test">
+  </include>
+  </run>
+  </groups>
+    <classes>
+      <class name="seleniumconcepts.TestNGexample"/>
+    </classes>
+  </test> <!-- Test -->
+  
   
 </suite> <!-- Suite -->
