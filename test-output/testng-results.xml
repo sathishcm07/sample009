@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="8" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="135" started-at="2019-09-28T08:17:22Z" finished-at="2019-09-28T08:17:23Z">
+    <groups>
+      <group name="Smoke Test">
+        <method signature="TestNGexample.testCaseThree()[pri:0, instance:seleniumconcepts.TestNGexample@2d6eabae]" name="testCaseThree" class="seleniumconcepts.TestNGexample"/>
+        <method signature="TestNGexample.testCaseOne()[pri:0, instance:seleniumconcepts.TestNGexample@305fd85d]" name="testCaseOne" class="seleniumconcepts.TestNGexample"/>
+        <method signature="TestNGexample.testCaseThree()[pri:0, instance:seleniumconcepts.TestNGexample@305fd85d]" name="testCaseThree" class="seleniumconcepts.TestNGexample"/>
+      </group> <!-- Smoke Test -->
+      <group name="Regression">
+        <method signature="TestNGexample.testCaseOne()[pri:0, instance:seleniumconcepts.TestNGexample@305fd85d]" name="testCaseOne" class="seleniumconcepts.TestNGexample"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="57" started-at="2019-09-28T08:17:22Z" finished-at="2019-09-28T08:17:22Z">
+      <class name="seleniumconcepts.TestNGexample">
+        <test-method status="PASS" signature="testCaseThree()[pri:0, instance:seleniumconcepts.TestNGexample@2d6eabae]" name="testCaseThree" duration-ms="20" started-at="2019-09-28T08:17:22Z" finished-at="2019-09-28T08:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseThree -->
+      </class> <!-- seleniumconcepts.TestNGexample -->
+    </test> <!-- Test -->
+    <test name="Smoke Test" duration-ms="10" started-at="2019-09-28T08:17:23Z" finished-at="2019-09-28T08:17:23Z">
+      <class name="seleniumconcepts.TestNGexample">
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:seleniumconcepts.TestNGexample@305fd85d]" name="testCaseOne" duration-ms="3" started-at="2019-09-28T08:17:23Z" finished-at="2019-09-28T08:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="testCaseThree()[pri:0, instance:seleniumconcepts.TestNGexample@305fd85d]" name="testCaseThree" duration-ms="1" started-at="2019-09-28T08:17:23Z" finished-at="2019-09-28T08:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseThree -->
+      </class> <!-- seleniumconcepts.TestNGexample -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Suite -->
+</testng-results>
